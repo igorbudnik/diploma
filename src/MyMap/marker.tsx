@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { TileLayer, Marker, Popup } from "react-leaflet";
+import { Marker } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import "./mymap.css";
 import L, { LatLngExpression } from "leaflet";
