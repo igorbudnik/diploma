@@ -171,7 +171,7 @@ const Paginator = () => {
   const [currentPage, setCurrentPage] = useState<number>(1);
 
   const getInfoData = (page: number) => {
-    alert("API CALL " + `${page}`);
+    // alert("API CALL " + `${page}`);
   };
 
   useEffect(() => {
