@@ -1,0 +1,26 @@
+.button {
+  height: 60px;
+  width: 250px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 0;
+  margin: 10px;
+  transition: 1s;
+  font-size: large;
+  color: black;
+  font-weight: bold;
+  background-color: white;
+  position: relative;
+  z-index: 1000;
+  -webkit-box-shadow: 4px 4px 74px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 4px 4px 74px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 4px 4px 74px 0px rgba(34, 60, 80, 0.2);
+}
+
+.button:hover {
+  background-color: white;
+  color: rgba(22, 21, 21, 0.658);
+  transition: 1s;
+  cursor: pointer;
+}

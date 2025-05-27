@@ -1,0 +1,74 @@
+.leaflet-container a.leaflet-attribution-flag {
+  display: none !important;
+}
+
+.map {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.border {
+  width: 80%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 10px double black;
+  outline: 3px solid black;
+}
+
+.loader {
+  width: fit-content;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 30px;
+  clip-path: inset(0 3ch 0 0);
+  animation: l4 1s steps(4) infinite;
+}
+.loader:before {
+  content: "Загружаем карту...";
+}
+@keyframes l4 {
+  to {
+    clip-path: inset(0 -1ch 0 0);
+  }
+}
+
+.main {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 280px;
+  text-align: center;
+  overflow-y: auto;
+  -webkit-box-shadow: 0px 0px 9px -2px rgba(34, 60, 80, 0.2) inset;
+  -moz-box-shadow: 0px 0px 9px -2px rgba(34, 60, 80, 0.2) inset;
+  box-shadow: 0px 0px 9px -2px rgba(34, 60, 80, 0.2) inset;
+}
+
+.objName {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.objAddress {
+  font-size: 20px;
+}
+
+/* .objDesc {
+  margin-top: 20px;
+} */
+
+.head {
+  display: flex;
+  width: 510px;
+  height: 290px;
+  justify-content: center;
+  align-items: center;
+  border: 5px double black;
+  outline: 2px solid black;
+}

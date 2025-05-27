@@ -1,0 +1,41 @@
+.paginator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  gap: 8px;
+  margin: 20px 0;
+  font-family: Arial, sans-serif;
+}
+
+.paginator span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #000;
+  background-color: #fff;
+  transition: all 0.3s ease;
+}
+
+.paginator span:hover {
+  background-color: #f0f0f0;
+}
+
+/* Стиль для активной страницы */
+.paginator span.active {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Стиль для кнопок навигации ("<" и ">") */
+.paginator span:first-child,
+.paginator span:last-child {
+  font-weight: bold;
+  border: none;
+}

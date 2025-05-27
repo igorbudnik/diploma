@@ -1,0 +1,14 @@
+.main_bar {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.bar {
+  width: 80%;
+  height: 100px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}

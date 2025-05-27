@@ -1,0 +1,11 @@
+.leaflet-attribution-flag {
+  display: none !important;
+}
+
+.leaflet-layer {
+  filter: invert(1) hue-rotate(320deg) brightness(1.1);
+}
+
+.leaflet-container {
+  border: 2px solid black;
+}
