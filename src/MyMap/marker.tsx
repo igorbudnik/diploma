@@ -6,6 +6,7 @@ import L, { LatLngExpression } from "leaflet";
 import mapStyle from "./mymap.module.css";
 import { IPlace } from "../App";
 import Modal from "../Modal/modal";
+import { log } from "console";
 
 interface IMarkerData {
   data: IPlace | null;
@@ -24,6 +25,7 @@ const MyMarker = ({ data }: IMarkerData) => {
   const onClickPlaceHandler = () => {
     setOpenModal(!isOpenModal);
   };
+  console.log(123);
 
   return (
     <Marker
